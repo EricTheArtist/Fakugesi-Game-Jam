@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 16404
+  controlID: 4303
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 16405
+  controlID: 4304
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 16406
+  controlID: 4305
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,9 +227,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3cac0000
-      m_LastClickedID: 44092
-      m_ExpandedIDs: 6abcfeff2e9fffff08fbffff626d0000e46d00001e6e00003c6e0000ce6e000028ac0000e4ac000002ad0000
+      m_SelectedIDs: 026dffff
+      m_LastClickedID: -37630
+      m_ExpandedIDs: 5ef4ffff16fbffff406d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6630962, y: 2.189014, z: -0.35033894}
+    m_Target: {x: 109.74948, y: 0.19711876, z: 37.679977}
     speed: 2
-    m_Value: {x: 1.6630962, y: 2.189014, z: -0.35033894}
+    m_Value: {x: 109.74948, y: 0.19711876, z: 37.679977}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -555,13 +555,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06722001, y: -0.44795716, z: 0.033799086, w: -0.8908857}
+    m_Target: {x: -0.053616766, y: -0.61005807, z: 0.0414304, w: -0.7894629}
     speed: 2
-    m_Value: {x: 0.06722001, y: 0.44795716, z: -0.033799086, w: 0.8908857}
+    m_Value: {x: -0.054863963, y: -0.60880625, z: 0.04226292, w: -0.79029024}
   m_Size:
-    m_Target: 3.984465
+    m_Target: 60.490364
     speed: 2
-    m_Value: 3.984465
+    m_Value: 60.490364
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -710,22 +710,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Eric/Test sprites
+    - Assets/Eric/Enviroment tests
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Eric/Test sprites
+  - Assets/Eric/Enviroment tests
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Work\Game Development\Personal\Game jams\Fakugesi-Game-Jam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 18760000
-    m_LastClickedID: 30232
-    m_ExpandedIDs: 00000000627400000476000000ca9a3b
+    m_SelectedIDs: f0750000
+    m_LastClickedID: 30192
+    m_ExpandedIDs: 0000000042740000dc75000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006274000000ca9a3b
+    m_ExpandedIDs: 000000004274000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -778,10 +778,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3cac0000
-    m_LastClickedInstanceID: 44092
+    m_SelectedInstanceIDs: 026dffff
+    m_LastClickedInstanceID: -37630
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000e0e40000666b0000
+    m_ExpandedInstanceIDs: c6230000e0e40000666b000018760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
