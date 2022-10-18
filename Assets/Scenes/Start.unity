@@ -3418,6 +3418,8 @@ GameObject:
   - component: {fileID: 1490542694}
   - component: {fileID: 1490542696}
   - component: {fileID: 1490542695}
+  - component: {fileID: 1490542697}
+  - component: {fileID: 1490542698}
   m_Layer: 8
   m_Name: Sprite_Character
   m_TagString: Untagged
@@ -3432,10 +3434,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490542693}
-  m_LocalRotation: {x: -0.0007122184, y: 0.99799204, z: 0.062299162, w: 0.011409275}
-  m_LocalPosition: {x: 0, y: 0.686, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0.00068309566, y: 0.99814683, z: 0.059768096, w: 0.011411034}
+  m_LocalPosition: {x: 0, y: 0.758, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 467481124}
   m_RootOrder: 0
@@ -3500,7 +3502,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e0f2f1392bdd2a24e80e1acd2116c8d7, type: 3}
+  m_Sprite: {fileID: 1819215345, guid: 97059486fad053246933f42100ffc81c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3511,6 +3513,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1490542697
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490542693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa8a7a409c654af44b3384bee5f9b67a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1490542698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490542693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970144b104de9304fa86c55eee19d5fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteAnimator: {fileID: 1490542697}
+  SRender: {fileID: 1490542696}
 --- !u!1 &1491192357
 GameObject:
   m_ObjectHideFlags: 0
