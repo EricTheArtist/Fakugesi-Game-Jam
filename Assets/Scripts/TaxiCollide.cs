@@ -5,15 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class TaxiCollide : MonoBehaviour
 {
-    public Transform playerTrans;
-    public Transform startPoint;
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Taxi")
         {
-            //change to schen 1
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            StartCoroutine("Hit");
         }
+    }
+    IEnumerator Hit()
+    {
+        Debug.Log("Screenshake");
+        yield return new WaitForSeconds(1.5f);
+        //turn off light
+        Debug.Log("Display Game Over");
+        yield return new WaitForSeconds(5f);
+        Debug.Log("Restarting Game");
+        SceneManager.LoadScene(0);
     }
 }
