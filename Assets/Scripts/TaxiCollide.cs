@@ -15,12 +15,12 @@ public class TaxiCollide : MonoBehaviour
     }
     IEnumerator Hit()
     {
-        Debug.Log("Screenshake");
-        yield return new WaitForSeconds(1.5f);
+        //Debug.Log("Screenshake");
+        yield return new WaitForSeconds(0.1f);
         //turn off light
-        Debug.Log("Display Game Over");
-        yield return new WaitForSeconds(5f);
-        Debug.Log("Restarting Game");
+        //Debug.Log("Display Game Over");
+        //yield return new WaitForSeconds(5f);
+        //Debug.Log("Restarting Game");
         SceneManager.LoadScene(0);
     }
 }
