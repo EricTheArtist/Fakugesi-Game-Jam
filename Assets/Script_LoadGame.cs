@@ -15,7 +15,15 @@ public class Script_LoadGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitMyGame();
+        }
+    }
+
+    public void QuitMyGame()
+    {
+        Application.Quit();
     }
 
     private void OnTriggerEnter(Collider other)
