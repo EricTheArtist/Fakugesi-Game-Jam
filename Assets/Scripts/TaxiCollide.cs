@@ -21,6 +21,6 @@ public class TaxiCollide : MonoBehaviour
         //Debug.Log("Display Game Over");
         //yield return new WaitForSeconds(5f);
         //Debug.Log("Restarting Game");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

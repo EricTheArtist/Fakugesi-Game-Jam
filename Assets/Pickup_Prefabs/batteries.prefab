@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4406720064406323687}
   - component: {fileID: 5192702353701532952}
-  - component: {fileID: 5987232456683869710}
   - component: {fileID: 5906392110290868551}
   m_Layer: 0
   m_Name: batteries
@@ -86,25 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1183024399 &5987232456683869710
-LookAtConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839799012651953456}
-  m_Enabled: 1
-  m_Weight: 1
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationOffset: {x: 0, y: 0, z: 0}
-  m_Roll: 0
-  m_WorldUpObject: {fileID: 0}
-  m_UseUpObject: 0
-  m_IsContraintActive: 0
-  m_IsLocked: 0
-  m_Sources:
-  - sourceTransform: {fileID: 0}
-    weight: 1
 --- !u!65 &5906392110290868551
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -49,6 +49,7 @@ public class BatteryBarController : MonoBehaviour
         //change colour
         colour_control();
         //reload scene
+        //SceneManager.LoadScene(0);
         respawn();
     }
     public void colour_control()
@@ -89,6 +90,7 @@ public class BatteryBarController : MonoBehaviour
     {
         if (battery_bar.fillAmount <= 0)
         {
+            SceneManager.LoadScene(1);
             StartCoroutine(battery_dead());
         }
     }
