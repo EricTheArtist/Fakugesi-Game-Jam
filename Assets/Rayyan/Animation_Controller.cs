@@ -6,6 +6,8 @@ public class Animation_Controller : MonoBehaviour
 {
     public Animator SpriteAnimator;
     public SpriteRenderer SRender;
+    public bool CanJump;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,19 @@ public class Animation_Controller : MonoBehaviour
         {
             SpriteAnimator.SetBool("Stand", false);
         }
-        
+
+        if(CanJump == true)
+        {
+            SpriteAnimator.SetTrigger("Jump");
+            SpriteAnimator.SetBool("isGrounded", false);
+        }
+        if (!CanJump)
+        {
+            //exit jump
+            SpriteAnimator.SetBool("isGrounded", true);
+
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SpriteAnimator.SetBool("Jump", true);

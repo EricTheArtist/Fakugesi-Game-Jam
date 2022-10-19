@@ -17,7 +17,8 @@ namespace StarterAssets
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
-
+        //public GameObject player_;
+        //Animation_Controller anime_control;
         [Tooltip("Sprint speed of the character in m/s")]
         public float SprintSpeed = 5.335f;
 
@@ -150,6 +151,8 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+            //anime_control = player_.GetComponent<Animation_Controller>();
         }
 
         private void Update()
@@ -182,7 +185,14 @@ namespace StarterAssets
                 transform.position.z);
             Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
                 QueryTriggerInteraction.Ignore);
-
+           /*/ if (Grounded)
+            {
+                anime_control.CanJump = true;
+            }
+            else if (!Grounded)
+            {
+                anime_control.CanJump = false;
+            }*/
             // update animator if using character
             if (_hasAnimator)
             {

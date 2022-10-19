@@ -108,7 +108,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 82
         width: 15
         height: 51
@@ -129,7 +129,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 25
         y: 82
         width: 22
         height: 51
@@ -150,7 +150,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_2
       rect:
         serializedVersion: 2
-        x: 47
+        x: 52
         y: 83
         width: 17
         height: 49
@@ -171,7 +171,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_3
       rect:
         serializedVersion: 2
-        x: 76
+        x: 81
         y: 81
         width: 16
         height: 51
@@ -192,7 +192,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_4
       rect:
         serializedVersion: 2
-        x: 100
+        x: 105
         y: 80
         width: 20
         height: 52
@@ -213,7 +213,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_5
       rect:
         serializedVersion: 2
-        x: 143
+        x: 148
         y: 79
         width: 15
         height: 52
@@ -234,7 +234,7 @@ TextureImporter:
       name: main_character_pixel_art_sprite_sheet_right_6
       rect:
         serializedVersion: 2
-        x: 169
+        x: 174
         y: 81
         width: 15
         height: 50
@@ -335,6 +335,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: main_character_pixel_art_sprite_sheet_right_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0942618ecd7ff554c8fc3914de700324
+      internalID: -283738435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -346,6 +367,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      main_character_pixel_art_sprite_sheet_right_11: -283738435
       main_character_pixel_art_sprite_sheet_right_0: 1819215345
       main_character_pixel_art_sprite_sheet_right_7: -841416106
       main_character_pixel_art_sprite_sheet_right_3: 1013992493
