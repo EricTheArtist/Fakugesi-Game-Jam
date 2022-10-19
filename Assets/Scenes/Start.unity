@@ -2107,6 +2107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuitGame: 0
+  EndGame: 0
+  PlayGame: 1
 --- !u!65 &872671393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3668,6 +3670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuitGame: 1
+  EndGame: 0
+  PlayGame: 0
 --- !u!65 &1496247014
 BoxCollider:
   m_ObjectHideFlags: 0

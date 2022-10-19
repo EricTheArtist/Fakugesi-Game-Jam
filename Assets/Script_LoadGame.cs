@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Script_LoadGame : MonoBehaviour
 {
     public bool QuitGame = false;
+    public bool EndGame = false;
+    public bool PlayGame = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +30,11 @@ public class Script_LoadGame : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(QuitGame == false)
+        if(EndGame == true)
+        {
+            SceneManager.LoadScene(2);
+        }
+        if(PlayGame == true)
         {
             SceneManager.LoadScene(1);
         }
